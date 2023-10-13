@@ -1,0 +1,109 @@
+.App {
+    text-align: center;
+    justify-content: center;
+    background-color:aqua;
+    text-align: center;
+    padding-top: 25%;
+    color:black;
+  }
+  .wrap {
+    position: relative;
+    overflow-x: auto;
+    width: 100%;
+    max-width: 100%;
+  }
+  
+  button.link { 
+    background:none; 
+    border:none; 
+  }
+  
+  .Item{
+    margin: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+  
+  .column-header {
+    display: flex;
+    align-items: center;
+  }
+  
+  .column-header span {
+    flex-grow: 1;
+    margin-right: 1px;
+  }
+  
+  .card-body{
+    text-align: justify;
+    text-align: center;
+  }
+  
+  .table-wrapper {
+    height: 550px;
+    overflow-y: auto;
+  }
+  
+  table {
+    width: 100%;
+    max-width: 100%;
+    border-collapse: collapse;
+  }
+  
+  td {
+    padding: 1rem;
+    border: 1px solid #eee;
+  }
+  
+  ::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 10px 10px 6px rgba(153, 165, 165, 0.377);
+    border-radius: 5px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    background-color:#fff;
+    -webkit-box-shadow: inset 0 0 6px rgba(45, 41, 41, 0.553);
+  }
+  
+  .App-logo {
+    height: 40vmin;
+    pointer-events: none;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+  
+  .App-header {
+    background-color:aquamarine;
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: black;
+  
+  }
+  
+  
+  .App-link {
+    color: #61dafb;
+  }
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
